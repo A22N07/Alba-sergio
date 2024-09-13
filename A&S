@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Invitación de Boda - Albita & Sergio</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #fff;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #f5f5f5;
+        }
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+            margin: 0;
+            font-weight: normal;
+        }
+        section {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin: 20px 0;
+            font-weight: normal;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .info {
+            margin: 30px 0;
+        }
+        .info p {
+            font-size: 1.1rem;
+            font-style: italic;
+        }
+        .rsvp, .gift {
+            margin: 40px 0;
+        }
+        .rsvp a, .gift a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #000;
+            border: 2px solid #000;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+        .rsvp a:hover, .gift a:hover {
+            background-color: #000;
+            color: #fff;
+        }
+        footer {
+            background-color: #f5f5f5;
+            padding: 30px;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Albita & Sergio</h1>
+    </header>
+
+    <section class="description">
+        <h2>¡Nos Casamos!</h2>
+        <p>Después de 8 años de aventuras, viajes y proyectos juntos, Albita y Sergio hemos decidido unir nuestras vidas para siempre.</p>
+        <p>Estamos muy emocionados de compartir este día tan especial con todos nuestros seres queridos.</p>
+    </section>
+
+    <section class="info">
+        <h2>Detalles de la Boda</h2>
+        <p><strong>Lugar:</strong> Salón de Eventos "El Paraíso"</p>
+        <p><strong>Fecha:</strong> 12 de Octubre, 2024</p>
+        <p><strong>Hora:</strong> 6:00 PM</p>
+        <p><strong>Dress Code:</strong> Formal Elegante</p>
+    </section>
+
+    <section class="gift">
+        <h2>Regalo</h2>
+        <p>Si deseas hacernos un regalo, agradecemos que sea en efectivo para ayudarnos a cumplir el sueño de nuestra luna de miel.</p>
+        <p><a href="#">Detalles para el regalo</a></p>
+    </section>
+
+    <section class="rsvp">
+        <h2>RSVP</h2>
+        <p>Por favor confirma tu asistencia lo antes posible.</p>
+        <p><a href="#">Confirmar Asistencia</a></p>
+    </section>
+
+    <footer>
+        <p>Con mucho amor, Albita & Sergio.</p>
+        <p>¡Estamos ansiosos por compartir este día especial contigo!</p>
+    </footer>
+
+</body>
+</html>
